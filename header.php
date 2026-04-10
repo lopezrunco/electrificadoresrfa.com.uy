@@ -37,6 +37,17 @@
                             <a class="text-light"><i class="me-3 fa-solid fa-location-dot"></i> <?php echo $company_data['location'] ?></a>
                         </small>
                     </div>
+                    <div class="col-6">
+                        <div class="account-options">
+                            <a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id')); ?>">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <a href="<?php echo wc_get_cart_url(); ?>">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge bg-secondary"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

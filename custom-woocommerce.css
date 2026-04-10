@@ -135,8 +135,8 @@ ul.products.columns-4 li.product a span.price {
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
     text-transform: uppercase;
+    font-weight: 700;
     color: var(--primary);
-    background-color: var(--lightgray);
     transition: var(--main-transition);
     width: fit-content;
     margin: 0 auto;
@@ -260,23 +260,21 @@ form.woocommerce-ordering select.orderby {
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    margin: .5rem 0;
-    background-color: var(--lightgray);
     font-weight: 700;
     transition: var(--main-transition);
 }
 
 #sidebar ul>div ul li:hover,
 #sidebar ul>div ul li:active {
-    background-color: var(--light);
+    /* background-color: var(--light); */
     transform: translateX(.5rem);
 }
 
 #sidebar ul>div ul li a {
     width: 80%;
     display: inline-flex;
-    padding: 1rem;
-    color: var(--dark);
+    padding: .5rem 0;
+    color: var(--dark) !important;
     transition: var(--main-transition);
 }
 
@@ -586,7 +584,6 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
     background: var(--danger) !important;
     color: var(--white) !important;
     border-radius: 20px !important;
-    padding: 0.4rem 2rem !important;
     text-decoration: none !important;
     transition: var(--main-transition) !important;
 
