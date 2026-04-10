@@ -22,10 +22,10 @@ get_header();
                 </div>
                 <?php
                 // Dev form
-                echo do_shortcode('[contact-form-7 id="15fefad" title="Formulario de contacto"]');
+                // echo do_shortcode('[contact-form-7 id="15fefad" title="Formulario de contacto"]');
 
                 // Prod form
-                // echo do_shortcode('[contact-form-7 id="c25c7a8" title="Formulario de contacto"]'); 
+                echo do_shortcode('[contact-form-7 id="67d7e38" title="Formulario de contacto"]'); 
                 ?>
             </div>
             <div class="col-12">
